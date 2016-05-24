@@ -28,6 +28,26 @@ Fresh out the oven project
 - [React] (https://facebook.github.io/react)
 - [NodeJS] (https://nodejs.org/en)
 
+#### Naming Standards
+- CSS
+  - Use hyphens for file names
+  ```
+  a-css-file.css
+  ```
+  - Use hyphens for classes
+  ```
+  .somegroup-css
+  ```
+- JavaScript
+  - Use hyphens for file names
+  ```
+  a-js-file.js
+  ```
+  - Use camelCase for variable names
+  ```
+  var someVariable
+  ```
+  
 #### Pull the Project
 ```shell
 mkdir untitled
