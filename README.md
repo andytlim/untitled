@@ -65,7 +65,7 @@ git pull https://github.com/toka-io/untitled.git
 | Create channel collection in mLab  | Gabriel Rodriguez  | 5/31  |
 | Create media collection in mLab  | John West  | 5/31  |
 | Create chatroom collection in mLab  | Andy Lim | 5/31  |
-| Design restful service calls for user data  | Gurtej Singh  | 6/07 |
-| Design restful service calls for channel data  | Gabriel Rodriguez  | 6/07 |
-| Design restful service calls for media data  | John West  | 6/07 |
-| Design restful service calls for chatroom data  | Andy Lim  | 6/07 |
+| Design restful service calls for user data  | Gurtej Singh  | 6/7 |
+| Design restful service calls for channel data  | Gabriel Rodriguez  | 6/7 |
+| Design restful service calls for media data  | John West  | 6/7 |
+| Design restful service calls for chatroom data  | Andy Lim  | 6/7 |
