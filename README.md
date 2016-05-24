@@ -58,14 +58,14 @@ git pull https://github.com/toka-io/untitled.git
 #### Tasks
 | Task  | Developer | Due |
 | --- | --- | --- |
-| Read up on ExpressJS and MongoDB | Mike Lambert, Alex Griffin  | 05/31 |
-| Design any collection already listed (or not listed) and create in mLab | Mike Lambert, Alex Griffin  | 05/31 |
-| Go over restful design with Andy | Mike Lambert, Alex Griffin  | 05/31 |
-| Create user collection in mLab  | Gurtej Singh  | 05/31  |
-| Create channel collection in mLab  | Gabriel Rodriguez  | 05/31  |
-| Create media collection in mLab  | John West  | 05/31  |
-| Create chatroom collection in mLab  | Andy Lim | 05/31  |
-| Design restful service calls for user data  | Gurtej Singh  | 06/07 |
-| Design restful service calls for channel data  | Gabriel Rodriguez  | 06/07 |
-| Design restful service calls for media data  | John West  | 06/07 |
-| Design restful service calls for chatroom data  | Andy Lim  | 06/07 |
+| Read up on ExpressJS and MongoDB | Mike Lambert, Alex Griffin  | 5/31 |
+| Design any collection already listed (or not listed) and create in mLab | Mike Lambert, Alex Griffin  | 5/31 |
+| Go over restful design with Andy | Mike Lambert, Alex Griffin  | 5/31 |
+| Create user collection in mLab  | Gurtej Singh  | 5/31  |
+| Create channel collection in mLab  | Gabriel Rodriguez  | 5/31  |
+| Create media collection in mLab  | John West  | 5/31  |
+| Create chatroom collection in mLab  | Andy Lim | 5/31  |
+| Design restful service calls for user data  | Gurtej Singh  | 6/07 |
+| Design restful service calls for channel data  | Gabriel Rodriguez  | 6/07 |
+| Design restful service calls for media data  | John West  | 6/07 |
+| Design restful service calls for chatroom data  | Andy Lim  | 6/07 |
