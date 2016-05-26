@@ -29,7 +29,8 @@ Fresh out the oven project
 - [NodeJS] (https://nodejs.org/en)
 
 #### Naming Standards
-- CSS
+- Abide by [AirBnB React Naming Standards] (https://github.com/airbnb/javascript/tree/master/react#basic-rules) for React
+- General CSS
   - Use hyphens for file names
   ```
   a-css-file.css
@@ -38,7 +39,7 @@ Fresh out the oven project
   ```
   .somegroup-css
   ```
-- JavaScript
+- General JavaScript
   - Use hyphens for file names
   ```
   a-js-file.js
