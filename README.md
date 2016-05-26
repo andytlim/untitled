@@ -49,11 +49,13 @@ Fresh out the oven project
   var someVariable
   ```
   
-#### Pull the Project
+#### Pull the Project & Run the Project
 ```shell
 mkdir untitled
 git init
 git pull https://github.com/toka-io/untitled.git
+npm install
+npm start
 ```
 
 #### Tasks
