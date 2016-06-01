@@ -1,0 +1,30 @@
+
+Media Metadata Object
+{
+  id              integer; primary key
+  title           string
+  mediaType       foreign key/string (YOUTUBE, MP4, etc)
+  length          integer; time in seconds
+  url             string; url for actual media (Youtube GET or local server GET)
+  
+  // upload details
+  uploadBy        foreign key to users table
+  uploadDate      datetime
+  
+  // categorization
+  tags            array of strings
+  categories      array of strings
+  
+  // stats
+  plays           integer; number of total views (1 view per user)
+  playlists       integer; number of playlists its currently in
+}
+
+GET /media            -retrieves list of all media entries
+GET /media/:id        -retrieves media entry with specified id
+POST /media           -creates a new media entry
+PUT /media/:id        -updates the media entry with specified id
+DELETE /media/:id     -deletes media entry with specified id
+
+/play?v=:id           -starts playing media specified id
+
