@@ -20,11 +20,11 @@ Media Metadata Object
   playlists       integer; number of playlists its currently in
 }
 
-GET /media            -retrieves list of all media entries
-GET /media/:id        -retrieves media entry with specified id
-POST /media           -creates a new media entry
-PUT /media/:id        -updates the media entry with specified id
-DELETE /media/:id     -deletes media entry with specified id
+GET /media            -retrieves array of all media entries
+GET /media/:id        -retrieves media metadata object with specified id
+POST /media           -creates a new media metadata object
+PUT /media/:id        -updates the media metadata object with specified id
+DELETE /media/:id     -deletes media metadata object with specified id
 
 /play?v=:id           -starts playing media specified id
 
