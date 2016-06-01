@@ -2,20 +2,27 @@
 Fresh out the oven project
 
 #### User Stories
-| Role  | Feature |
-| --- | --- |
-| Guest | Sign up |
-| Guest | Log in |
-| User | Create a channel |
-| User | Create a schedule |
-| User | Add video to schedule |
-| User | Sync playlist to schedule |
-| User | Create a playlist |
-| User | Add video to playlist |
-| User | Chat |
-| All | Browse through a list of channels |
-| All | View a channel |
-| All | View chat |
+| Role  | Feature | Assigned To |
+| --- | --- | --- |
+| Guest | Sign up | Gabe |
+| Guest | Log in | Gabe |
+| Guest | Provide a guest username for chat or randomize nickname | Alex |
+| User | Create a channel | Gabe |
+| User | Follow a channel | Mike |
+| User | Can 'like' a video | |
+| User | Create a schedule | Gabe | 
+| User | Add video to schedule from all videos or playlist, etc | John |
+| User | Add a video to account | John |
+| User | Create a playlist | John |
+| User | Add video to playlist from all videos or other playlists, etc | John |
+| User | Can perform admin chat activities | |
+| User | Report channels/video | Alex |
+| User | Report a user  for 'slingin slurs' | Alex |
+| All | Browse through a list of channels | Mike |
+| All | View a channel | Mike |
+| All | View chat | Alex |
+| All | Participate in chat | |
+| All | View user profiles | |
 
 #### Prerequisite
 - Install [NodeJS] (https://nodejs.org/en/download)
