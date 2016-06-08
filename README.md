@@ -68,7 +68,29 @@ npm install
 npm start
 ```
 
-#### Tasks
+#### Tips
+When designing a restful service, please provide url, headers, and body:
+```
+url: /user/:userId/login
+type: post
+content-type: application/json
+body:
+{
+  username: azle,
+  password: 11499
+}
+
+required headers: none
+required cookies: sessionId
+```
+
+#### Remaining Tasks
+| Design restful service calls for user data  | Gurtej Singh  | 6/7 |
+| Design restful service calls for channel data  | Gabriel Rodriguez  | 6/7 |
+| Design restful service calls for media data  | John West  | 6/7 |
+| Design restful service calls for chatroom data  | Andy Lim  | 6/7 |
+
+#### Completed Tasks
 | Task  | Developer | Due |
 | --- | --- | --- |
 | Read up on ExpressJS and MongoDB | Mike Lambert, Alex Griffin  | 5/31 |
@@ -78,7 +100,3 @@ npm start
 | Create channel collection in mLab  | Gabriel Rodriguez  | 5/31  |
 | Create media collection in mLab  | John West  | 5/31  |
 | Create chatroom collection in mLab  | Andy Lim | 5/31  |
-| Design restful service calls for user data  | Gurtej Singh  | 6/7 |
-| Design restful service calls for channel data  | Gabriel Rodriguez  | 6/7 |
-| Design restful service calls for media data  | John West  | 6/7 |
-| Design restful service calls for chatroom data  | Andy Lim  | 6/7 |
