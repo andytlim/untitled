@@ -69,7 +69,7 @@ npm start
 ```
 
 #### Tips
-When designing a restful service, please provide url, headers, and body:
+When designing a restful service, please provide the following:
 ```
 url: /user/:userId/login
 type: post
