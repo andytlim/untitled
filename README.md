@@ -85,6 +85,8 @@ required cookies: sessionId
 ```
 
 #### Remaining Tasks
+| Task  | Developer | Due |
+| --- | --- | --- |
 | Design restful service calls for user data  | Gurtej Singh  | 6/7 |
 | Design restful service calls for channel data  | Gabriel Rodriguez  | 6/7 |
 | Design restful service calls for media data  | John West  | 6/7 |
