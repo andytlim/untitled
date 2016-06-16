@@ -1,0 +1,34 @@
+#SIGNUP
+
+URL: /signup
+TYPE: POST
+REQUEST BODY: userid, password, email
+
+URL: /user/lookup?user, email
+TYPE: GET
+
+
+#LOGIN
+URL: /login
+TYPE: POST
+REQUEST BODY: username,password
+
+
+#CHANNEL
+URL: /channel
+TYPE: POST
+REQUEST BODY: accountId
+
+URL:/channel/{channelName}
+TYPE: GET
+
+URL:/channel?categories,accountid
+TYPE: GET
+
+#SCHEDULE
+URL:/{user}/schedule
+TYPE: POST
+
+URL:/{user}/schedule/playlists
+TYPE: GET
+
