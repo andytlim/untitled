@@ -91,6 +91,8 @@ required cookies: sessionId
 | Design restful service calls for channel data  | Gabriel Rodriguez  | 6/7 |
 | Design restful service calls for media data  | John West  | 6/7 |
 | Design restful service calls for chatroom data  | Andy Lim  | 6/7 |
+| Post restful service mockup(s) on github | Alex, Gabe, John | 7/11 |
+| Access youtube data api, build sample call | | 7/11 |
 
 #### Completed Tasks
 | Task  | Developer | Due |
