@@ -104,4 +104,6 @@ required cookies: sessionId
 | Create chatroom collection in mLab  | Andy Lim | 5/31  |
 
 #### API Keys
-- AIzaSyCLpDjTdey4mrFeg2GGgSlN6YR0Mzf2h0w (Youtube Data API)
+| Task  | Developer |
+| --- | --- |
+| Youtube Data API | AIzaSyCLpDjTdey4mrFeg2GGgSlN6YR0Mzf2h0w |
