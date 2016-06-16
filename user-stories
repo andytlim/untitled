@@ -1,0 +1,11 @@
+
+
+
+POST /user/schedule/:scheduleId       -Add video to schedule from all videos or playlist, etc
+DELETE /user/schedule/:scheduleId     -Remove video to schedule from all videos or playlist, etc
+
+POST /user/:userName/media            -Add a video to account from our system repository
+DELETE /user/:userName/media          -Remove a video from an account
+
+POST /media                           -Add a video to our system
+DELETE /media                         -Remove a video from our system
