@@ -22,8 +22,9 @@ REQUEST BODY: accountId
 URL:/channel/{channelName}
 TYPE: GET
 
-URL:/channel?categories,accountid
+URL:/channel
 TYPE: GET
+REQUEST PARAM: categories, accountId
 
 #SCHEDULE
 URL:/{user}/schedule
