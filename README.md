@@ -103,7 +103,7 @@ required cookies: sessionId
 | Create media collection in mLab  | John West  | 5/31  |
 | Create chatroom collection in mLab  | Andy Lim | 5/31  |
 
-#### API Keys
-| Task  | Developer |
+#### API(s) 
+| API  | Key |
 | --- | --- |
 | Youtube Data API | AIzaSyCLpDjTdey4mrFeg2GGgSlN6YR0Mzf2h0w |
