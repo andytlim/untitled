@@ -30,6 +30,6 @@ REQUEST PARAM: categories, accountId
 URL:/{user}/schedule
 TYPE: POST
 
-URL:/{user}/schedule/playlists
+URL:/{user}/schedule/videos
 TYPE: GET
 
