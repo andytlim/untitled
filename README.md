@@ -135,4 +135,9 @@ required cookies: sessionId
 | API  | Key |
 | --- | --- |
 | Youtube Data API | AIzaSyCLpDjTdey4mrFeg2GGgSlN6YR0Mzf2h0w |
-gmail: guestatmydoor@gmail.com/gitgud2016
+
+#### Admin Accounts(s) 
+| Type | Username  | Password |
+| --- | --- | --- |
+| Gmail | guestatmydoor@gmail.com | gitgud2016 |
+| mLab | knockknock | gitgud2016 |
