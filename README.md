@@ -58,6 +58,32 @@ Fresh out the oven project
   ```
   var someVariable
   ```
+- API
+  - Use hyphens for context paths that have more than 1 word in urls. This does NOT apply to variables in the url.
+  ```
+  untitled.com/video-games/Overwatch
+  ```
+  - Use camelCase for key/value pair based messages (JSON, url-encoded, etc)
+  ```
+  [HTTP BODY]
+  {
+    username: azle,
+    password: 11499
+  }
+  ```
+- MongoDB
+  - Use underscores for collection names
+  ```
+  chatroom_servers
+  user_to_channel_bridge
+  ```
+  - Use camelCase for document attributes
+  ```
+  {
+    username: azle,
+    password: 11499
+  }
+  ```
   
 #### Pull the Project & Run the Project
 ```shell
