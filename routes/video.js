@@ -8,9 +8,8 @@ router.get('/:youtubeId', function(req, res, next) {
     getYoutubeVideoById(req.params.youtubeId).then(function(youtubeVideo) {
         // extract needed fields from youtubeVideo for media database
         var media = {};
-        console.log(youtubeVideo);
-        addMedia(media).then(function(insertedMedia) {
-            res.status(201).json(insertedMedia);
+        addMedia(youtubeVideo).then(function(insertedMedia) {
+            res.status(200).json(insertedMedia);
         }, function(error) {
             res.status(500).json(error);
         });
