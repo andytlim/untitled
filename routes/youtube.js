@@ -9,26 +9,23 @@ router.get('/:Id', function(req, res, next) {
     
     Youtube.authenticate({
         type: "key"
-      , token: "AIzaSyCLpDjTdey4mrFeg2GGgSlN6YR0Mzf2h0w"
+      , key: "AIzaSyCLpDjTdey4mrFeg2GGgSlN6YR0Mzf2h0w"
     });
                     
     Youtube.videos.list({
         id:videoId,
-        part:"snipet"                              
+        part:"snippet"                              
     }, function(err, data) {
             if(err) {
-                res.send(err);
-            } else {     
-                   
-              
-          
-                           
+                res.send("Sorry that isn't a valid youtube ID :");
+            } else {   
+                
+                var snippetinfo = data.items[0].snippet;   
+                res.send("Title is : " + snippetinfo.title + "<br />" +
+                        "Description is :" + snippetinfo.description); 
+                
             }  
-
-
      });
-
-
 });
 
 router.get('/', function(req,res,next) {
