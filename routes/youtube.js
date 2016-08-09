@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
   
 /* POST youtube information */
-router.get('/:Id', function(req, res, next) {
+router.post('/:Id', function(req, res, next) {
     var videoId=req.params.Id;
     
     var Youtube = require("youtube-api");
@@ -17,7 +17,7 @@ router.get('/:Id', function(req, res, next) {
         part:"snippet"                              
     }, function(err, data) {
             if(err) {
-                res.send("Sorry that isn't a valid youtube ID :");
+                res.send("Sorry that isn't a valid youtube ID :(");
             } else {   
                 
                 var snippetinfo = data.items[0].snippet;   
@@ -29,7 +29,7 @@ router.get('/:Id', function(req, res, next) {
 });
 
 router.get('/', function(req,res,next) {
-    res.send("you're not supposed to be here!");
+    res.send("Something goes here.");
 });
 
 module.exports = router;
