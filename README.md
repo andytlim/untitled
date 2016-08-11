@@ -5,27 +5,27 @@ Fresh out the oven project
 - [Good guide on RESTful services] (http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
 
 #### User Stories
-| Role  | Feature | Assigned To |
+| Role  | Feature |
 | --- | --- | --- |
-| Guest | Sign up | Gabe |
-| Guest | Log in | Gabe |
-| Guest | Provide a guest username for chat or randomize nickname | Alex |
-| User | Create a channel | Gabe |
-| User | Follow a channel | Mike |
-| User | Can 'like' a video | |
-| User | Create a schedule | Gabe | 
-| User | Add video to schedule from all videos or playlist, etc | John |
-| User | Add a video to account | John |
-| User | Create a playlist | John |
-| User | Add video to playlist from all videos or other playlists, etc | John |
-| User | Can perform admin chat activities | |
-| User | Report channels/video | Alex |
-| User | Report a user  for 'slingin slurs' | Alex |
-| All | Browse through a list of channels | Mike |
-| All | View a channel | Mike |
-| All | View chat | Alex |
-| All | Participate in chat | |
-| All | View user profiles | |
+| Guest | Sign up |
+| Guest | Log in |
+| Guest | Provide a guest username for chat or randomize nickname |
+| User | Create a channel | 
+| User | Follow a channel | 
+| User | Can 'like' a video |
+| User | Create a schedule |
+| User | Add video to schedule from all videos or playlist, etc | 
+| User | Add a video to account | 
+| User | Create a playlist | 
+| User | Add video to playlist from all videos or other playlists, etc | 
+| User | Can perform admin chat activities | 
+| User | Report channels/video | 
+| User | Report a user  for 'slingin slurs' |
+| All | Browse through a list of channels | 
+| All | View a channel | 
+| All | View chat | 
+| All | Participate in chat |
+| All | View user profiles | 
 
 #### Prerequisite
 - Install [NodeJS] (https://nodejs.org/en/download)
