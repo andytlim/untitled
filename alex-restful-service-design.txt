@@ -1,0 +1,91 @@
+
+--Notes about data/etc:
+--{guest_id}, {user_id}, {admin_id} are probably the same data point, "users" having a specific role_type = 'guest|user|admin'
+--{media_object_id} could represent different types of media, "media" having a specific media_object_type = 'channel|playlist|video'
+
+--role: user,  feature: a user can report another user for slingin slurs or doing something else
+url: /{user_id}/report/{report_user_id}
+type: post
+content-type: application/json
+body:
+{
+	reported_date: "2016-06-13"
+	report_description: "I would like to report this user for saying terrible things."
+}
+
+required headers: --figure this out later
+required cookies: session_id
+
+--role: admin, feature: an admin can request data for all reported users, may need to add time range parameters or set a default range
+url: /{admin_id}/report/user
+type: get
+content-type: application/json
+
+--role: user, feature: a user can report a channel (media_object_type = 'channel')
+url: /{user_id}/report/{media_object_id}
+type: post
+content-type: application/json
+body:
+{
+	reported_date: "2016-06-15"
+	report_description: "I would like to report this channel as being offensive.  It is wearing a bow tie on casual Friday."
+}
+
+--role: admin, feature: an admin can request data for all reported channels, may need to add time range parameters or set a default range
+url: /{admin_id}/report?media_object_type=channel
+type: get
+content-type: application/json
+
+required headers: --figure this out later
+required cookies: session_id
+
+--role: user, feature: a user can report a video (media_object_type = 'video')
+url: /{user_id}/report/{media_object_id}
+type: post
+content-type: application/json
+body:
+{
+	reported_date: 2016-06-15
+	report_description: "I would like to report this video as being offensive.  It is serving pizza with no cheese."
+}
+
+required headers: --figure this out later
+required cookies: session_id
+
+--role: admin, feature: an admin can request data for all reported videos, may need to add time range parameters or set a default range
+url: /{admin_id}/report?media_object_type=video
+type: get
+content-type: application/json
+
+--role: guest, feature: a guest can view a chat
+--question: Does a chat always have an associated channel?  Is channel_id part of the URL?
+url: /{guest_id}/{chat_id}
+type: get
+content-type: application/json
+
+--role: guest, feature: a user can view a chat
+--question: Does a chat always have an associated channel?  Is channel_id part of the URL?
+url: /{user_id}/{chat_id}
+type: get
+content-type: application/json
+
+--role: guest, feature: an admin can view a chat
+--question: Does a chat always have an associated channel?  Is channel_id part of the URL?
+url: /{admin_id}/{chat_id}
+type: get
+content-type: application/json
+
+--role: guest, feature: a guest can provide a username for a chat
+url: /{chat_id}/{guest_username}
+type: post
+content-type: application/json
+body:
+{
+	username_creation_time: "2016-06-15 3:00:00"
+}
+
+--role: guest, feature: a guest can request a random username for a chat
+--not really sure what this url should be...
+url: /{chat_id}/random_username
+type: get
+content-type: application/json
