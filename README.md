@@ -88,6 +88,7 @@ Fresh out the oven project
 #### Pull the Project & Run the Project
 ```shell
 mkdir untitled
+cd untitled
 git init
 git pull https://github.com/toka-io/untitled.git
 npm install
