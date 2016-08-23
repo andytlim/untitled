@@ -6,12 +6,9 @@ var express = require('express')
   , bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-<<<<<<< HEAD
 var users = require('./routes/users');
 var youtube = require('./routes/youtube');
-=======
 var media = require('./routes/media');
->>>>>>> origin/master
 
 var app = express();
 
