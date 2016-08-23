@@ -1,0 +1,13 @@
+{
+  "js": [],
+  "css": [
+    {
+      "source": "public/css/src",
+      "target": "public/css",
+      "map": { 
+        "base.css": ["base.css"],
+        "sample-react.css": ["sample-react.css"]        
+      }
+    }
+  ]
+}
