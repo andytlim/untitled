@@ -26,12 +26,9 @@ app.use(cookieParser());
 app.use(express.static(__dirname + '/public'));
 
 app.use('/', routes);
-<<<<<<< HEAD
 app.use('/users', users);
 app.use('/youtube', youtube);
-=======
 app.use('/media', media);
->>>>>>> origin/master
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
