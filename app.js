@@ -25,7 +25,6 @@ app.use(cookieParser());
 app.use(express.static(__dirname + '/public'));
 
 app.use('/', routes);
-app.use('/users', users);
 app.use('/youtube', youtube);
 app.use('/media', media);
 
