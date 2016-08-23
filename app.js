@@ -6,6 +6,7 @@ var express = require('express')
   , bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
+var youtube = require('./routes/youtube');
 var media = require('./routes/media');
 
 var app = express();
@@ -24,6 +25,7 @@ app.use(cookieParser());
 app.use(express.static(__dirname + '/public'));
 
 app.use('/', routes);
+app.use('/youtube', youtube);
 app.use('/media', media);
 
 // catch 404 and forward to error handler
