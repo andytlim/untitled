@@ -1,6 +1,8 @@
-var Youtube = require('youtube-node');
+var Youtube = require("youtube-api");
 
-var youtube = new Youtube();
-youtube.setKey('AIzaSyCLpDjTdey4mrFeg2GGgSlN6YR0Mzf2h0w');
+Youtube.authenticate({
+  type: 'key',
+  key: 'AIzaSyCLpDjTdey4mrFeg2GGgSlN6YR0Mzf2h0w'
+});
 
-module.exports = youtube;
+module.exports = Youtube;
