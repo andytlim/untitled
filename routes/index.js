@@ -10,4 +10,8 @@ router.get('/sample/react', function(req, res, next) {
   res.render('sample-react', { title: 'React Example' });
 });
 
+router.get('/sample/youtube', function(req, res, next) {
+    res.render('sample-react-youtube');
+});
+
 module.exports = router;
