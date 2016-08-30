@@ -1,15 +1,18 @@
-var youtube = require('./youtubeDatasource');
+var Youtube = require('./youtubeDatasource');
 
 module.exports = function(id) {
-    return new Promise(function(resolve,reject){
-        youtube.getById(id, function(error, result) {
-            if(error !== null) {
-                reject(error); 
-            }else if(!(result.items instanceof Array)) {
+    return new Promise(function(resolve, reject) {
+        Youtube.videos.list({
+          id: id,
+          part: 'snippet'
+        }, function (err, result) {
+            if (err !== null) {
+                reject(err); 
+            } else if (!(result.items instanceof Array)) {
                 reject('Unexpected result');
-            }else if(result.items.length <= 0) {
+            } else if (result.items.length <= 0) {
                 reject('No Youtube video found with id: ' + id);
-            }else {
+            } else {
                 resolve(result.items[0]);
             }
         });
