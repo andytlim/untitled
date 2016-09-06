@@ -94,6 +94,7 @@ cd untitled
 git init
 git pull https://github.com/toka-io/untitled.git
 npm install
+bower install
 npm start
 ```
 
