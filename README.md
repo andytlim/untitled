@@ -30,7 +30,9 @@ Fresh out the oven project
 #### Prerequisite
 - Install [NodeJS] (https://nodejs.org/en/download)
 - Install [Git] (https://git-scm.com/downloads)
-- Install [Brackets] (https://brackets.io) (Optional, any editor will do)
+- Install [Brackets] (https://brackets.io) (Optional, any editor will do) (#FYI
+So I ran into an interesting bug with Brackets--if you include the node_modules folder, you are going to have a bad time aka it’ll hang the editor if the folder has too much stuff in it. That being said, please download this [extension] (https://github.com/gruehle/exclude-folders) and restart Brackets to make sure node_modules gets excluded from the editor.)
+
 
 #### Development Stack
 - [MongoDB] (https://www.mongodb.com)
