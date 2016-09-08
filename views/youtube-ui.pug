@@ -1,0 +1,11 @@
+extends ./global/layout
+
+block assets
+  meta(name='description', content='Sample React Page')
+  link(rel='stylesheet', href='/css/youtube-ui.css')
+  script(src='/react/build/youtube-ui.js')
+
+block content
+  script.
+    ReactDOM.render(sample, document.body);
+  
