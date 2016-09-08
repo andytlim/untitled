@@ -93,7 +93,7 @@ mkdir untitled
 cd untitled
 git init
 git pull https://github.com/toka-io/untitled.git
-npm run init-dev
+npm install
 npm start
 ```
 
