@@ -95,6 +95,7 @@ git init
 git pull https://github.com/toka-io/untitled.git
 npm install
 bower install
+npm run init-dev
 npm start
 ```
 
