@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm run build && node ./bin/www",
     "build": "minime -r && babel public/react/jsx -d public/react/build",
-    "init-dev": "npm prune & npm install"
+    "init-dev": "npm prune & npm install",
     "postinstall" : "bower install"
   },
   "dependencies": {
