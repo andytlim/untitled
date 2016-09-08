@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
   
 /* POST youtube information */
-router.post('/:Id', function(req, res, next) {
+router.post('/:id', function(req, res, next) {
     var videoId=req.params.Id;
     
     var Youtube = require("youtube-api");
