@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm run build && node ./bin/www",
     "build": "minime -r && babel public/react/jsx -d public/react/build",
-    "init-dev": "npm install babel-cli minime -g"
+    "init-dev": "npm prune & npm install & bower install"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -20,6 +20,9 @@
     "youtube-api": "^2.0.2"
   },
   "devDependencies": {
-    "babel-plugin-transform-react-jsx": "^6.8.0"
+    "babel-cli": "^6.14.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "bower": "^1.7.9",
+    "minime": "^1.1.5"
   }
 }
