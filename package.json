@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "npm run build && node ./bin/www",
-    "build": "minime && babel public/react/jsx -d public/react/build",
+    "build": "minime -r && babel public/react/jsx -d public/react/build",
     "init-dev": "npm install babel-cli minime -g"
   },
   "dependencies": {
